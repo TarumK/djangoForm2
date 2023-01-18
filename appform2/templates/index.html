@@ -7,8 +7,12 @@
 <body>
 <form method="POST" action="zapros/">
     {% csrf_token %}
+    {{ form }}
     <input name="name">
     <input type="submit" value="Submit">
+
 </form>
+
+
 </body>
 </html>
